@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseAutomation", "EnterpriseAutomation\EnterpriseAutomation.csproj", "{8AD40E54-8126-42AE-9700-AFCB0E7EE4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempRef", "tempRef\tempRef.csproj", "{6A9995CA-1088-4C8E-9B54-511D50EB45E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD40E54-8126-42AE-9700-AFCB0E7EE4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD40E54-8126-42AE-9700-AFCB0E7EE4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD40E54-8126-42AE-9700-AFCB0E7EE4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD40E54-8126-42AE-9700-AFCB0E7EE4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9995CA-1088-4C8E-9B54-511D50EB45E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9995CA-1088-4C8E-9B54-511D50EB45E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9995CA-1088-4C8E-9B54-511D50EB45E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9995CA-1088-4C8E-9B54-511D50EB45E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C0073B-C533-42AE-8731-45B2D9BC75E9}
+	EndGlobalSection
+EndGlobal
