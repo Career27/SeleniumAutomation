@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.IE;
 using System.Threading;
 using System.Drawing;
 using SRE.AuthenticationProviders;
@@ -23,8 +24,8 @@ namespace EnterpriseAutomation.Tests
         [Test]
         public void DownloadReport()
         {
-            driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32");
-            //driver.Url = "https://staginganalyzer.styleresearch.com/authentication/srlogin.aspx";
+            //driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32");
+            driver = new ChromeDriver("\\Drivers");
 
             driver.Navigate().GoToUrl(baseUrl);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
@@ -91,9 +92,9 @@ namespace EnterpriseAutomation.Tests
         [Category("Regression")]
         public void Enterprise_Web_LoginTest()
         {
-            
 
-            driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32");
+            driver = new ChromeDriver();
+
             driver.Navigate().GoToUrl(baseUrl);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             driver.Manage().Window.Maximize();
@@ -106,12 +107,12 @@ namespace EnterpriseAutomation.Tests
             
         }
 
+        [Ignore("")]
         [Test]
         [Category("Regression")]
         public void Enterprise_Web_LoginTest2()
         {
 
-
             driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32");
             driver.Navigate().GoToUrl(baseUrl);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
@@ -124,7 +125,6 @@ namespace EnterpriseAutomation.Tests
             loginPage.clickLogin();
 
         }
-
 
 
         [Ignore("")]
