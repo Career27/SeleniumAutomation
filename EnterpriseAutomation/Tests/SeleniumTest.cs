@@ -95,6 +95,8 @@ namespace EnterpriseAutomation.Tests
 
             driver = new ChromeDriver();
 
+            //driver = new InternetExplorerDriver();
+
             driver.Navigate().GoToUrl(baseUrl);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             driver.Manage().Window.Maximize();
