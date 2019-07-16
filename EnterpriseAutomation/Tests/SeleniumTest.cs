@@ -9,7 +9,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
 using System.Threading;
 using System.Drawing;
-using SRE.AuthenticationProviders;
+//using SRE.AuthenticationProviders;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using RestSharp;
