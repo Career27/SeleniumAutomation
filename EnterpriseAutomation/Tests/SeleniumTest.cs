@@ -24,7 +24,7 @@ namespace EnterpriseAutomation.Tests
         [Test]
         public void DownloadReport()
         {
-            //driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32");
+            //driver = new ChromeDriver("C:\\Softwares\\chromedriver_win32") ;
             driver = new ChromeDriver("\\Drivers");
 
             driver.Navigate().GoToUrl(baseUrl);
